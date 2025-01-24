@@ -7,7 +7,7 @@ def comprobarCaracteres(str1, str2):
     for character in str2:
         if character not in str1:
             out2.append(character)
-    return out1, out2
+    return " ".join(out1), " ".join(out2)
 
 print("Inserte un texto")
 str1= input()
