@@ -56,7 +56,7 @@ def generar_fichero_curso(alumnos, curso):
     print(f"Fichero {curso}.txt generado correctamente.")
 
 def menu():
-    fichero = "notas.txt"
+    fichero = "ficheros1/notas.txt"
     alumnos = leer_datos(fichero)
     
     while True:
